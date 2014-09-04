@@ -15,8 +15,8 @@ namespace ConsoleApplication1
             p.Nombre = "Rubén";
             p.Apellido = "Spagnuolo";
             Console.WriteLine ("{0}, {1}",p.Apellido, p.Nombre);
-            Console.ReadKey(true);
             Console.WriteLine("Pulse cualquier tecla para terminar...");
+            Console.ReadKey(true);         
         }
     }
 }
