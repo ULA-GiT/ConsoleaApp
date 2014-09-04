@@ -11,9 +11,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Console.WriteLine("Hola Mundo!");
-            var p = new Persona();
-            p.Nombre = "Rubén";
-            p.Apellido = "Spagnuolo";
+            var p = new Persona("Rubén", "Spagnuolo");
             Console.WriteLine ("{0}, {1}",p.Apellido, p.Nombre);
             Console.WriteLine("Pulse cualquier tecla para terminar...");
             Console.ReadKey(true);         
