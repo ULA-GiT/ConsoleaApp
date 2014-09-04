@@ -12,6 +12,7 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("Hola Mundo!");
             Console.ReadKey(true);
+            Console.WriteLine("Pulse cualquier tecla para terminar...");
         }
     }
 }
